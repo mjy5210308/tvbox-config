@@ -1,0 +1,20 @@
+{
+  "store_api": [
+    "https://cdn.jsdelivr.net/gh/mjy5210308/tvbox-config@main/source.json"
+  ],
+  "spider": "",
+  "wallpaper": "",
+  "lives": [
+    {
+      "group": "直播源",
+      "channels": [
+        {
+          "name": "全部频道(央视卫视港澳台)",
+          "urls": [
+            "https://cdn.jsdelivr.net/gh/yuanzl77/IPTV@main/live.m3u"
+          ]
+        }
+      ]
+    }
+  ]
+}
