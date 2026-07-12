@@ -1,3 +1,13 @@
 {
-  "sites": []
+  "sites": [
+    {
+      "key": "iptv-bj-backup",
+      "name": "备用示例站点",
+      "type": 3,
+      "api": "https://www.baidu.com/",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1
+    }
+  ]
 }
