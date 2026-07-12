@@ -1,8 +1,5 @@
 {
-  "store_api": [
-    "https://cdn.jsdelivr.net/gh/FongMiTV/TV@main/api.json",
-    "https://cdn.jsdelivr.net/gh/mjy5210308/tvbox-config@main/source.json"
-  ],
+  "wallpaper": "",
   "lives": [
     {
       "group": "直播源",
@@ -14,6 +11,17 @@
           ]
         }
       ]
+    }
+  ],
+  "sites": [
+    {
+      "key": "iptv-bj",
+      "name": "示例站点(后续替换)",
+      "type": 3,
+      "api": "https://www.baidu.com/",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1
     }
   ]
 }
