@@ -1,37 +1,42 @@
-# TVBox Personal Config Repository
+# TVBox �������òֿ�
 
-My TVBox configuration, hosted on GitHub and served via jsdelivr CDN for fast access in China.
+�ҵ� TVBox ���ã�ͨ�� jsdelivr CDN �����ڹ��ڷ��ʡ�
 
-## Files
+## �ļ�˵��
 
-- `tvbox.json` - TVBox config entry (points to source.json)
-- `source.json` - TVBox source (contains site definitions)
+- `tvbox.json` - TVBox ������ڣ����� store_api �� lives��
+- `source.json` - ���ýӿ�Դ��catvod.json ��ʽ��
 
-## Usage
+## ʹ�÷���
 
-Fill this URL in your TVBox config address:
+�� TVBox ���õ�ַ���룺
 
 ```
-https://cdn.jsdelivr.net/gh/<your-github-username>/<repo-name>@main/tvbox.json
+https://cdn.jsdelivr.net/gh/mjy5210308/tvbox-config@main/tvbox.json
 ```
 
-## Modifying config
+## ˫Դ����
 
-1. Edit `tvbox.json` or `source.json` directly on GitHub web
-2. Commit, wait 1-2 minutes for jsdelivr CDN to sync
-3. Refresh on TVBox to see new content
+`tvbox.json` �� store_api �������� URL��
+1. FongMiTV����̫Ӳ���ٷ�Դ - ��Դ
+2. �Խ� source.json - ����
 
-## Adding real video sources
+TVBox ����ʱ�ᰴ˳���ԣ���Դ������ʱ�Զ��ñ��á�
 
-Edit `source.json`, replace `sites[0].api` with a working video API URL,
-or add more site elements:
+## �޸�����
+
+ֱ�ӱ༭ GitHub �ϵ��ļ����ύ��� 1-2 ���� jsdelivr ͬ����
+
+## ��ӵ㲥Դ
+
+�༭ `source.json`���� sites ���������վ�㣺
 
 ```json
 {
   "sites": [
     {
       "key": "site_id",
-      "name": "Site Name",
+      "name": "վ����",
       "type": 3,
       "api": "https://example.com/api.php/provide/vod",
       "searchable": 1,
@@ -42,7 +47,6 @@ or add more site elements:
 }
 ```
 
-## Live TV
+## ֱ��Դ
 
-`tvbox.json` already includes aggregated live TV (CCTV, satellite, HK/Macau/TW).
-You can replace the m3u link in `lives` field with your own.
+`tvbox.json` �� lives �ֶ��������������Ӹ۰�ֱ̨����
