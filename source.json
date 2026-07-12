@@ -1,0 +1,16 @@
+{
+  "wallpaper": "",
+  "spider": "",
+  "lives": [],
+  "sites": [
+    {
+      "key": "demo",
+      "name": "演示站点(请在 source.json 里替换 api)",
+      "type": 3,
+      "api": "https://www.baidu.com/",
+      "searchable": 1,
+      "filterable": 1,
+      "quickSearch": 1
+    }
+  ]
+}
